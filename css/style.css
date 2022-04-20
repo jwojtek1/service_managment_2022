@@ -1,0 +1,406 @@
+
+
+form#edit_contract legend {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+form#add_file button {
+    width: 100px;
+}
+
+.priority {
+    color: #fff;
+    background-color: #3757F7;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: right;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+}
+
+.creation_date {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: black
+}
+
+.custom-checkbox {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100% !important;
+}
+
+.custom-checkbox img {
+    margin-right: 5px;
+}
+
+.contract_details {
+    text-align: right;
+}
+
+.actions {
+    margin: 24px 0px;
+    margin-bottom: 60px;
+}
+
+.actions a {
+    margin-right: 12px;
+    width: 100px;
+}
+
+.actions button {
+    width: 100px;
+}
+
+.menu-back {
+    background: #323438;
+}
+
+
+.kanban_name {
+    margin: 3%;
+    font-size: 22px;
+}
+
+.kanban_name .fa-plus {
+    color: black;
+    font-size: 22px;
+    -webkit-text-stroke: 2px white;
+}
+
+.kanban_name .fa-plus:hover {
+    color: #3757F7;
+    font-size: 22px;
+    transition: 1s;
+}
+
+#commission_images {
+    margin: 20px;
+    float: left;
+}
+
+#commission_images .card-body {
+    flex-direction: unset;
+}
+
+#commission_images img {
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+}
+
+.navbar.menu-back {
+    box-shadow: 0 4px 10px -2px gray;
+    border: none;
+}
+
+.logout:hover {
+    color: red !important;
+    transition: 1s !important;
+}
+
+body#login, body#register{
+    background-color: #323438;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+
+.container {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.col-md-8.second {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.col-lg-7.third {
+    background-color: #555759;
+}
+
+.col-md-8.second h2 {
+    margin-top: 100px;
+    font-weight: 520;
+    margin-bottom: 12px;
+    font-size: 36px;
+}
+
+.form-group.email, .form-group.password, .form-group.passwordConfirm, .form-group.form-check.terms, .btn.btn-primary.create {
+    margin-top: 28px;
+}
+
+.form-control.password, .form-control.email {
+    border-radius: 5px;
+    background-color: #323438;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #7E8490;
+    color: #fff;
+}
+
+.form-control.password:hover {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #007CFF;
+    transition: 0,5s;
+}
+
+.form-control.email:hover, .form-control.password:hover, .form-check-input.terms:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #007CFF;
+    transition: 0,5s;
+}
+
+.form-control:focus, .form-control:focus-visible, .form-control:focus-within {
+    box-shadow: none;
+    border-color: #007CFF;
+}
+
+.form-check-input.terms { 
+    width: 15px;
+    height: 15px;
+    background-color: #323438;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #7E8490;
+}
+
+.form-check-label.terms {
+    margin-left: 8px;
+}
+
+.form-check-label.terms a.terms{
+    color: #638699;
+}
+
+.form-check-label.terms a.login{
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.btn.btn-primary.create {
+    font-size: 12px;
+    background-color: #007CFF;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #007CFF;
+}
+
+.btn.btn-primary.create:hover {
+    background-color: #0022ca;
+    border-color: #0022ca;
+    transition: 1s;
+}
+
+.labelForm {
+    margin-left:25px;
+}
+
+.col-lg-7.third h2 {
+    margin: 100px 130px 60px 130px;
+    font-weight: 520;
+    font-size: 36px;
+}
+
+.col-lg-7.third p {
+    font-size: 18px;
+    margin: 0px 130px 0 130px;
+}
+
+body#kanban{
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.kanban_name {
+    color: #000;
+}
+
+.row.kanban {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#kanban .mb-3 {
+    margin-bottom: 24px !important;
+}
+
+.card-body.p-3.card {
+    background-color: #F2F2F2;
+    border: none;
+    box-shadow: 0px 0px 8px 2px rgb(189, 188, 188);
+}
+
+.card.mb-3.bg-light {
+    border: none;
+}
+
+.card.card-border-primary {
+    border: none;
+}
+
+.card-header {
+    background-color: #FFF;
+}
+
+.card-title {
+    color: #000;
+    font-size: 16px;
+}
+
+.card.card-border-warning {
+    border: none;
+}
+
+.card-body.p-3.column {
+    background-color: #FFF;
+}
+
+.link-card {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-element {
+    color: #3757F7 !important;
+    font-size: 16px;
+}
+
+.menu-element:hover {
+    color: #fff !important;
+}
+
+.menu-elements {
+    margin-right: auto !important;
+}
+
+.standard-list {
+    margin: 3%;
+}
+
+.standard-list thead{
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+
+body#contract-list {
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.menu-logo {
+    width:50px;
+    height:50px
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.add-new {
+    margin: 3%;
+    border: 1px solid #3757F7;
+    color: #3757F7;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.add-new:hover {
+    text-decoration: none;
+    color:#FFF;
+    background-color: #3757F7;
+    transition: 1s;
+}
+
+.dropdown.bootstrap-select.form-control {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: #FFF;
+}
+
+form#create-device {
+    margin: 20px !important;
+    width: 50%;
+}
+
+form#create-company {
+    margin: 20px !important;
+}
+
+form#create-company .form-control {
+    width: 75% !important;
+}
+
+.fa-backspace {
+    color: red;
+}
+
+.fa-backspace:hover {
+    transition: 0.5s;
+    color: rgb(102, 0, 0);
+}
+
+.table {
+    max-width: 95%;
+}
+
+.bootstrap-select:not(.input-group-btn), .bootstrap-select[class*="col-"] {
+    display: flex !important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0px !important;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.footer {
+    height: 60px;
+    margin-top: 5%;
+    width: 100%;
+    background-color: #16171a;
+    color: #FFF;
+    font-size: 16px;
+}
+
+#formFile {
+    width: 75%;
+}
+
+.contract-form, #edit_contract {
+    margin: 3% 0% 3% 3%;
+}
+
+#edit_contract {
+    width: 50%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
